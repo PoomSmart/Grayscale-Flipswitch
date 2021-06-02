@@ -26,7 +26,5 @@
 	<string>3.0</string>
 	<key>NSPrincipalClass</key>
 	<string>GrayscaleSwitch</string>
-	<key>alternate-action-url</key>
-	<string>prefs:root=General&amp;path=ACCESSIBILITY</string>
 </dict>
 </plist>
