@@ -1,9 +1,12 @@
-Package: org.thebigboss.grayscaleflipswitch
+Package: com.ps.grayscaleflipswitch
 Name: Grayscale Flipswitch
-Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 8.0)
-Version: 0.0.1
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Provides: org.thebigboss.grayscaleflipswitch
+Replaces: org.thebigboss.grayscaleflipswitch
+Conflicts: org.thebigboss.grayscaleflipswitch
+Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Toggle for grayscale mode.
+Description: Flipswitch toggle for grayscale mode.
 Maintainer: PoomSmart
 Author: PoomSmart
 Section: Addons (Flipswitch)

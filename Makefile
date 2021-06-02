@@ -1,11 +1,11 @@
-ARCHS = armv7 armv7s arm64
-SDKVERSION = 8.0
+PACKAGE_VERSION = 1.0.0
+TARGET = iphone:clang:latest:11.0
 
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
-BUNDLE_NAME = Grayscale
-Grayscale_FILES = Switch.xm
-Grayscale_LIBRARIES = Accessibility flipswitch
-Grayscale_INSTALL_PATH = /Library/Switches
+BUNDLE_NAME = GrayscaleFS
+GrayscaleFS_FILES = Switch.xm
+GrayscaleFS_LIBRARIES = Accessibility flipswitch
+GrayscaleFS_INSTALL_PATH = /Library/Switches
 
 include $(THEOS_MAKE_PATH)/bundle.mk
